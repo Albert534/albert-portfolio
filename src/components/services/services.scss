@@ -1,0 +1,183 @@
+.services {
+	background: linear-gradient(180deg, #0c0c1d, #111132);
+	margin-top: 30px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	z-index: 4; /* Make sure it's above the parallax */
+	position: relative; /* Ensure it doesn't get hidden behind other elements */
+
+	.textContainer {
+		flex: 2;
+		align-self: flex-end;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+
+		@media (max-width: 768px) {
+			align-self: center;
+			margin-top: 10px;
+			text-align: center;
+			flex-direction: column;
+		}
+
+		@media (max-width: 1024px) and (min-width: 768px) {
+			align-self: center;
+
+			text-align: center;
+			flex-direction: column;
+		}
+
+		p {
+			margin-top: 20px;
+			font-weight: 200;
+			font-size: 20px;
+			color: gray;
+		}
+		hr {
+			width: 500px;
+			border: none;
+			border-top: 0.5px solid grey;
+
+			@media (max-width: 768px) {
+				width: 300px;
+			}
+		}
+	}
+	.titleContainer {
+		flex: 2;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 20px;
+		@media (max-width: 768px) {
+			width: 100%;
+		}
+
+		@media (max-width: 1024px) and (min-width: 768px) {
+			align-self: center;
+			margin-top: 10px;
+			text-align: center;
+			flex-direction: column;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		.title {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+			@media (max-width: 768px) {
+				flex-direction: column;
+				text-align: center;
+				gap: 10px;
+				flex: 1;
+			}
+
+			@media (max-width: 1024px) and (min-width: 768px) {
+				flex-direction: column;
+				text-align: center;
+				gap: 10px;
+				flex: 1;
+			}
+
+			img {
+				width: 300px;
+				height: 100px;
+				border-radius: 50px;
+				object-fit: cover;
+				gap: 20px;
+				@media (max-width: 768px) {
+					width: 200px;
+					height: 50px;
+					margin-top: 50px;
+				}
+
+				@media (max-width: 1024px) and (min-width: 768px) {
+					width: 150px;
+					height: 90px;
+					margin-top: 50px;
+					object-fit: cover;
+				}
+			}
+
+			h1 {
+				font-size: 96px;
+				font-weight: 100;
+
+				@media (max-width: 768px) {
+					font-size: 36px;
+				}
+
+				@media (max-width: 1024px) and (min-width: 768px) {
+					font-size: 40px;
+				}
+			}
+			button {
+				width: 300px;
+				height: 100px;
+				border-radius: 50px;
+				background-color: orange;
+				border: none;
+				font-size: 24px;
+				cursor: pointer;
+				@media (max-width: 768px) {
+					font-size: 16px;
+					width: 150px;
+					height: 50px;
+				}
+				@media (max-width: 1024px) and (min-width: 768px) {
+					font-size: 20px;
+					width: 300px;
+					height: 80px;
+				}
+			}
+		}
+	}
+	.listContainer {
+		flex: 2;
+		max-width: 1366px;
+		display: flex;
+		margin: auto;
+		margin-top: 20px;
+
+		@media (max-width: 768px) {
+			flex-direction: column;
+			margin-top: 20px;
+
+			width: 100%;
+		}
+
+		@media (max-width: 1024px) and (min-width: 768px) {
+			flex: 2;
+			flex-direction: column;
+			margin-top: 20px;
+
+			width: 100%;
+		}
+	}
+	.box {
+		padding: 30px;
+		padding-top: 20px;
+		border: 0.5px solid gray;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		p {
+			margin-top: 10px;
+			@media (max-width: 768px) {
+				flex-direction: column;
+				margin-top: 20px;
+
+				width: 100%;
+			}
+		}
+	}
+}
+
+.titleContainer .title b {
+	transition: color 0.3s ease-in-out;
+}
+.titleContainer .title b:hover {
+	color: orange;
+}
