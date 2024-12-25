@@ -25,11 +25,17 @@
 			gap: 20px;
 			align-items: center;
 			text-align: center;
+			margin: 0px;
+		}
+
+		@media (max-width: 1024px) and (min-width: 768px) {
+			width: 50%;
+			margin-left: 0;
 		}
 
 		@media (max-width: 1366px) and (min-width: 1024px) {
 			width: 60%;
-			margin-left: 10px;
+			margin-left: 1cm;
 		}
 
 		h2 {
