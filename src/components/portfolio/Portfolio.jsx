@@ -3,6 +3,13 @@ import './portfolio.scss';
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 const items = [
 	{
+		id: 0,
+		title: 'Echopedia',
+		img: './echopedia.png',
+		desc: 'A Music Streaming Website developed with Next.Js , Firebase , Zustand and more.',
+		link: 'https://echopeida.vercel.app/',
+	},
+	{
 		id: 1,
 		title: 'BOOM',
 		img: './Boom.png',

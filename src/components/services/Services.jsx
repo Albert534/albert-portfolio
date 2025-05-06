@@ -66,13 +66,15 @@ const Services = () => {
 				variants={variants}
 			>
 				<div className='box'>
-					<h2>MERN</h2>
+					<h2>Development Progress</h2>
 					<p>
-						With expertise in MongoDB, Express.js, React, and Node.js, I create
-						dynamic, full-stack web applications that are scalable, efficient,
-						and user-friendly. From database management to responsive front-end
-						design, I ensure every layer of development aligns seamlessly with
-						project goals and delivers exceptional results.
+						With expertise in React, Next.js, TanStack, Redux, Zustand, and
+						Express.js, I build dynamic, full-stack web applications that are
+						performant, scalable, and user-centric. From efficient state
+						management and responsive front-end design to robust backend
+						architecture and API development, I ensure every layer of the
+						application aligns seamlessly with project goals and delivers
+						exceptional results.
 					</p>
 				</div>
 				<div className='box'>

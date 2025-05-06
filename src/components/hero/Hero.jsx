@@ -50,7 +50,7 @@ const Hero = () => {
 					animate='animate'
 				>
 					<motion.h2 variants={textVariants}>Aung Paing Oo</motion.h2>
-					<motion.h1 variants={textVariants}>Full-Stack Developer</motion.h1>
+					<motion.h1 variants={textVariants}>Frontend Developer</motion.h1>
 					<motion.div
 						className='buttons'
 						variants={textVariants}
@@ -79,7 +79,7 @@ const Hero = () => {
 				initial='initial'
 				animate='animate'
 			>
-				Junior Full-Stack Developer
+				Junior Frontend Developer
 			</motion.div>
 			<div className='imageContainer'>
 				<img
